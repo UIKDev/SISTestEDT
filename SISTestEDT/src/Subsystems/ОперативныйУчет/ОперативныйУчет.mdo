@@ -11,4 +11,5 @@
     <picture>CommonPicture.ОперативныйУчет</picture>
   </picture>
   <content>Catalog.Номенклатура</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
 </mdclass:Subsystem>
