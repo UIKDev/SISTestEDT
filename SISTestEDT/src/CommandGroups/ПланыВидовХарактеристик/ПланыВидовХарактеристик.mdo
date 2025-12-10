@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f15202ae-c51b-4c36-9c4d-c27bf2f394f6">
+  <name>ПланыВидовХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы видов характеристик</value>
+  </synonym>
+  <representation>Auto</representation>
+</mdclass:CommandGroup>

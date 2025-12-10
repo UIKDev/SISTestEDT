@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ee9daed-6fbe-4129-8cae-95ebfb96b6cc">
+  <producedTypes>
+    <objectType typeId="877b99d1-4ce4-4ac8-844d-77082950c266" valueTypeId="020aafdd-efc5-45fa-856e-15936ea52f00"/>
+    <refType typeId="7349c989-fc50-4dfa-ac44-168526b47b54" valueTypeId="97b77958-21af-4ab4-9cb5-3b70c1110681"/>
+    <selectionType typeId="5e0741f2-0f7d-4074-95ba-c2907c34589a" valueTypeId="3e00cf6b-f9f9-43ad-8128-688be5d2fe0b"/>
+    <listType typeId="7082ec59-1ba8-4e77-9291-5ba9aec13ff6" valueTypeId="4e85aabf-487d-41a6-8394-c5ceb3dec94b"/>
+    <managerType typeId="3c4f352a-dd37-4cb8-836c-a7d8962820a4" valueTypeId="bf87f5e8-ef97-4710-ba48-a1388786b9ea"/>
+  </producedTypes>
+  <name>РеалихацияТоваровИУслуг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реалихация товаров и услуг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеалихацияТоваровИУслуг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="f9b9fb50-42fa-4ee5-aa8d-292c2a2e03fd">
+    <producedTypes>
+      <objectType typeId="e47f4451-5612-49a9-be56-a4596ddbee7f" valueTypeId="9e24bba6-1c62-4724-90bc-912a27073108"/>
+      <rowType typeId="0b2478d5-773b-424a-90d4-9def5fa94049" valueTypeId="0d65a1b2-d06d-465f-875f-6e19629839f9"/>
+    </producedTypes>
+    <name>СписокНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список номенклатуры</value>
+    </synonym>
+    <attributes uuid="dff5fd25-120e-45a0-9a7d-cc4a403db54f">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.ВидНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыНоменклатуры.EnumValue.Товар</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f194aa68-62d1-4988-a251-fa2e859cbc8d">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4036896c-9fcb-454d-bb9f-11d3a43278b9">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

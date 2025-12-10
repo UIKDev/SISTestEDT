@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26d353e6-6b87-4452-b499-eb503ff33a90">
+  <name>БухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет</value>
+  </synonym>
+</mdclass:CommonPicture>
