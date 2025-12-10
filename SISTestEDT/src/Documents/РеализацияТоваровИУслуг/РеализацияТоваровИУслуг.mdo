@@ -7,13 +7,13 @@
     <listType typeId="7082ec59-1ba8-4e77-9291-5ba9aec13ff6" valueTypeId="4e85aabf-487d-41a6-8394-c5ceb3dec94b"/>
     <managerType typeId="3c4f352a-dd37-4cb8-836c-a7d8962820a4" valueTypeId="bf87f5e8-ef97-4710-ba48-a1388786b9ea"/>
   </producedTypes>
-  <name>РеалихацияТоваровИУслуг</name>
+  <name>РеализацияТоваровИУслуг</name>
   <synonym>
     <key>ru</key>
-    <value>Реалихация товаров и услуг</value>
+    <value>Реализация товаров и услуг</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.РеалихацияТоваровИУслуг.StandardAttribute.Number</inputByString>
+  <inputByString>Document.РеализацияТоваровИУслуг.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -25,6 +25,25 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a8a21d67-7bdc-4ddd-9a98-ffc2dbf0da1a">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f9b9fb50-42fa-4ee5-aa8d-292c2a2e03fd">
     <producedTypes>
       <objectType typeId="e47f4451-5612-49a9-be56-a4596ddbee7f" valueTypeId="9e24bba6-1c62-4724-90bc-912a27073108"/>

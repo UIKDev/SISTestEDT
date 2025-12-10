@@ -58,6 +58,6 @@
   <commandGroups>CommandGroup.РегистрыБухгалтерии</commandGroups>
   <commandGroups>CommandGroup.РегистрыРасчета</commandGroups>
   <catalogs>Catalog.Номенклатура</catalogs>
-  <documents>Document.РеалихацияТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
 </mdclass:Configuration>
